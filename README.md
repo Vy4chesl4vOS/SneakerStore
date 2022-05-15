@@ -1,6 +1,6 @@
 # SneakerStore
 
-# SwiftUI | MVVM |
+# SwiftUI | MVVM
 ## Firebase | JSON | Kingfisher | CoreData | MapKit | CoreLocation
 
 <img src="https://raw.githubusercontent.com/Vy4chesl4vOS/SneakerStore/main/ScreenShots/1.png" width="300">
