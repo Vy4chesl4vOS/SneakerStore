@@ -1,4 +1,5 @@
-# CryptoCommunity
+# SneakerStore
+
 # SwiftUI | MVVM |
 ## Firebase | JSON | Kingfisher | CoreData | MapKit | CoreLocation
 
