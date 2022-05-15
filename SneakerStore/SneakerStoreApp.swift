@@ -6,12 +6,23 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct SneakerStoreApp: App {
+    @StateObject var vm: AuthViewModel = AuthViewModel()
+    
+    init () {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
+            .environmentObject(vm)
+            .preferredColorScheme(.light)
         }
     }
 }
